@@ -22,7 +22,9 @@ public class Test_Student {
 	//@Value Annotation always used with Global variable only
 	
 	@RequestMapping("name")
-	public String getName() {
+	public String getName() 
+	{
+		System.out.println("2");
 		//Student ss=new Student(); //When we use @Autowire Annotation then we need not to create object
 		System.out.println(studentid);
 		System.out.println(ss.studid1);
