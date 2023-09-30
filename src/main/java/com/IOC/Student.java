@@ -13,8 +13,9 @@ public class Student {
 
 	public int studid1;
 	
-	public String myName() {
-		
+	public String myName() 
+	{
+		System.out.println("Atul Misal");
 		return "Ashish";
 	}
 }
